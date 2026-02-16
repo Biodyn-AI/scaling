@@ -1,0 +1,9 @@
+V,x_axis,metric,reason,n_points
+64,params,best_val_mse,not_enough_points,1
+128,params,best_val_mse,not_enough_points,1
+64,tokens_seen,best_val_mse,not_enough_points,1
+128,tokens_seen,best_val_mse,not_enough_points,1
+64,params,best_val_gauss_nll,not_enough_points,1
+128,params,best_val_gauss_nll,not_enough_points,1
+64,tokens_seen,best_val_gauss_nll,not_enough_points,1
+128,tokens_seen,best_val_gauss_nll,not_enough_points,1

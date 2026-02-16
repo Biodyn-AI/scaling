@@ -1,0 +1,41 @@
+# ── Data & artifacts (large, not tracked) ──
+/data/
+/runs/
+/training_data/
+
+# ── Paper (separate from code repo) ──
+/paper/
+
+# ── IDE / OS ──
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# ── Python ──
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Reference PDFs ──
+*.pdf
+
+# ── Analysis scratch (keep only curated outputs) ──
+analysis/*.ps1
+analysis/*.log
+analysis/scaling_analysis_20260216_162955_V512_new/
+analysis/scaling_analysis_20260216_163013_V512_new/
+analysis/scaling_analysis_20260216_163109_V512_new/
+analysis/scaling_analysis_20260216_163321_V512_new/
+analysis/snapshots/
+analysis/sweep_smoke/
+analysis/entropy_v512/
+
+# ── Windows helper scripts ──
+py.ps1

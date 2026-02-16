@@ -1,0 +1,3 @@
+split,mse,mae,mask_rate,data
+val,1.8752120350612609,0.8363079915840123,0.15,data\census_human.D200000.V512.log1p.h5ad
+test,1.8617352470031034,0.832960934522501,0.15,data\census_human.D200000.V512.log1p.h5ad

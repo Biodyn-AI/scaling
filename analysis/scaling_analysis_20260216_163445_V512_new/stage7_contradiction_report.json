@@ -1,0 +1,62 @@
+{
+  "material_alpha_rel_diff_threshold": 0.15,
+  "two_band_signals": [
+    {
+      "V": 512,
+      "x_axis": "params",
+      "metric": "best_val_gauss_nll",
+      "two_band_signal": true,
+      "residual_pos_frac": 0.3333333333333333,
+      "residual_band_gap_over_std": 1.6103121441144967
+    },
+    {
+      "V": 512,
+      "x_axis": "params",
+      "metric": "best_val_mse",
+      "two_band_signal": true,
+      "residual_pos_frac": 0.3333333333333333,
+      "residual_band_gap_over_std": 1.5604238083158257
+    },
+    {
+      "V": 512,
+      "x_axis": "tokens_seen",
+      "metric": "best_val_gauss_nll",
+      "two_band_signal": true,
+      "residual_pos_frac": 0.3333333333333333,
+      "residual_band_gap_over_std": 1.2581346827941713
+    },
+    {
+      "V": 512,
+      "x_axis": "tokens_seen",
+      "metric": "best_val_mse",
+      "two_band_signal": true,
+      "residual_pos_frac": 0.3333333333333333,
+      "residual_band_gap_over_std": 1.368294594257541
+    }
+  ],
+  "comparisons_by_metric_across_V": [],
+  "comparisons_by_V_across_metric": [
+    {
+      "x_axis": "params",
+      "V": 512,
+      "metrics": [
+        "best_val_gauss_nll",
+        "best_val_mse"
+      ],
+      "alpha_rel_diff": 0.37616946906668886,
+      "c_rel_diff": 0.09735850764863438,
+      "material_slope_difference": true
+    },
+    {
+      "x_axis": "tokens_seen",
+      "V": 512,
+      "metrics": [
+        "best_val_gauss_nll",
+        "best_val_mse"
+      ],
+      "alpha_rel_diff": 0.48084834605657295,
+      "c_rel_diff": 0.0713115686387691,
+      "material_slope_difference": true
+    }
+  ]
+}
